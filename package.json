@@ -1,0 +1,39 @@
+{
+  "name": "universal-converter-backend",
+  "version": "1.0.0",
+  "description": "Backend for Universal Converter application providing various file conversion services.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "jest": "^27.0.6",
+    "ffmpeg-static": "^4.4.0",
+    "libreoffice-convert": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/jest": "^27.0.2",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^16.11.7"
+  },
+  "keywords": [
+    "file",
+    "converter",
+    "backend",
+    "express",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
